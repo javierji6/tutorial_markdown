@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3. Elementos de Línea on Tutorial de Markdown</title>
+    <link>/tutorial_markdown/elementos_linea/index.html</link>
+    <description>Recent content in 3. Elementos de Línea on Tutorial de Markdown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <atom:link href="/tutorial_markdown/elementos_linea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Énfasis</title>
+      <link>/tutorial_markdown/elementos_linea/enfasis/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_linea/enfasis/index.html</guid>
+      <description>El énfasis es una característica de Markdown que permite resaltar y dar énfasis a ciertas partes del texto.
+Énfasis en texto Negrita: Se logra al colocar el texto entre dos pares de asteriscos (**texto**). Cursiva: Para cursiva, se usa un guion bajo (_texto_). Ejemplo:
+**El trabajo en equipo** es crucial para alcanzar los objetivos. _La creatividad_ es un aspecto fundamental en la resolución de problemas.Se ve así:
+El trabajo en equipo es crucial para alcanzar los objetivos.</description>
+    </item>
+    <item>
+      <title>Enlaces</title>
+      <link>/tutorial_markdown/elementos_linea/links_enlaces/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_linea/links_enlaces/index.html</guid>
+      <description>Los enlaces permiten vincular texto a recursos externos o internos, como sitios web, archivos o secciones dentro del mismo documento.
+Enlaces a Sitios Web Para enlazar a un sitio web, utiliza la sintaxis [texto del enlace](URL):
+Ejemplo:
+[Instagram](https://instagram.com) es una popular red social.Se ve así: Instagram es una popular red social.
+Enlaces Internos Puedes enlazar secciones internas de tu sitio utilizando enlaces relativos:
+Ejemplo:
+Para más información, revisa la sección de [Elementos de Línea](/elementos_linea/).</description>
+    </item>
+    <item>
+      <title>Código</title>
+      <link>/tutorial_markdown/elementos_linea/codigo/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_linea/codigo/index.html</guid>
+      <description>En ciertos tipos de publicaciones, especialmente las de carácter técnico, es necesario presentar secciones que contienen código de otro lenguaje, atajos de teclado u otro contenido que no debe ser tratado como texto normal.
+Código en línea con &amp;lt;code&amp;gt; La forma más sencilla de escribir código en Markdown es envolver el texto entre dos comillas inversas (backticks). Esta representación se corresponde con la etiqueta HTML &amp;lt;code&amp;gt;.
+Ejemplo:
+`Esto es una línea de código`Se ve así: Esto es una línea de código.</description>
+    </item>
+    <item>
+      <title>Imágenes</title>
+      <link>/tutorial_markdown/elementos_linea/imagenes/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_linea/imagenes/index.html</guid>
+      <description>En Markdown, puedes agregar imágenes a tu documento de forma sencilla utilizando la sintaxis adecuada.
+Imágenes en línea Para mostrar una imagen desde una URL, utiliza la siguiente estructura:
+![Texto alternativo](URL_de_la_imagen)Ejemplo:
+![Logo de Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/208px-Markdown-mark.svg.png)Se ve así:
+Imágenes locales Si la imagen está guardada localmente en tu proyecto, colócala en la carpeta de imágenes y luego puedes enlazarla de esta manera:
+![Texto alternativo](ruta_a_la_imagen)Ejemplo:
+![Logo de Markdown](/images/markdown.png)Se ve así:</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Tutorial de Markdown</title>
+    <link>/tutorial_markdown/index.html</link>
+    <description>Recent content in Home on Tutorial de Markdown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <atom:link href="/tutorial_markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. ¿Qué es Markdown?</title>
+      <link>/tutorial_markdown/introduccion/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/introduccion/index.html</guid>
+      <description>Es un lenguaje de marcado ligero y de fácil escritura que se utiliza para formatear texto de una manera que sea legible y fácil de convertir en HTML u otros formatos de presentación.
+Se caracteriza por su simplicidad y su capacidad para formatear texto estructurado usando solo caracteres y símbolos comunes. Permite dar formato a los documentos con encabezados, listas, enlaces, énfasis (cursiva y negrita), bloques de código, imágenes y más.</description>
+    </item>
+    <item>
+      <title>2. Elementos de Bloque</title>
+      <link>/tutorial_markdown/elementos_bloque/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_bloque/index.html</guid>
+      <description>Esta sección trata sobre los elementos de bloque en Markdown. Aquí encontrarás información detallada sobre cómo utilizar y estructurar los elementos de bloque en tus documentos.
+Lista de Contenidos Párrafos y Saltos de Línea Encabezados Citas Listas Códigos de Bloque Reglas Horizontales Cada enlace te llevará a una página dedicada que explora a fondo el tema en cuestión.</description>
+    </item>
+    <item>
+      <title>3. Elementos de Línea</title>
+      <link>/tutorial_markdown/elementos_linea/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_linea/index.html</guid>
+      <description>Esta sección trata sobre los elementos de línea en Markdown. Aquí encontrarás información detallada sobre cómo utilizar y estructurar los elementos de línea en tus documentos.
+Lista de Contenidos Énfasis Links o Enlaces Código Imágenes Cada enlace te llevará a una página dedicada que explora a fondo el tema en cuestión.</description>
+    </item>
+  </channel>
+</rss>

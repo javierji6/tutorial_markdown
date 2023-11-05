@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.120.2">
+    <meta name="generator" content="Relearn 5.23.2+tip">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Listas :: Tutorial de Markdown">
+    <meta name="twitter:description" content="Las listas son una característica en Markdown para organizar elementos de manera estructurada.
+Listas Ordenadas Las listas ordenadas se crean utilizando números seguidos de un punto.
+Ejemplo:
+1. Elemento 1 2. Elemento 2 3. Elemento 3Se ve así:
+Elemento 1 Elemento 2 Elemento 3 Listas sin Orden Las listas sin orden se crean utilizando un guion, un asterisco o un signo más.
+Ejemplo:
+- Elemento A - Elemento B - Elemento C * Otra forma de lista no ordenada * Y otro elemento * Y otro más &#43; También es posible usar el signo másSe ve así:">
+    <meta property="og:title" content="Listas :: Tutorial de Markdown">
+    <meta property="og:description" content="Las listas son una característica en Markdown para organizar elementos de manera estructurada.
+Listas Ordenadas Las listas ordenadas se crean utilizando números seguidos de un punto.
+Ejemplo:
+1. Elemento 1 2. Elemento 2 3. Elemento 3Se ve así:
+Elemento 1 Elemento 2 Elemento 3 Listas sin Orden Las listas sin orden se crean utilizando un guion, un asterisco o un signo más.
+Ejemplo:
+- Elemento A - Elemento B - Elemento C * Otra forma de lista no ordenada * Y otro elemento * Y otro más &#43; También es posible usar el signo másSe ve así:">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="/tutorial_markdown/elementos_bloque/listas/index.html">
+    <meta property="article:section" content="2. Elementos de Bloque :: Tutorial de Markdown">
+    <meta property="og:site_name" content="Tutorial de Markdown">
+    <title>Listas :: Tutorial de Markdown</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/tutorial_markdown/css/fontawesome-all.min.css?1699215039" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/tutorial_markdown/css/fontawesome-all.min.css?1699215039" rel="stylesheet"></noscript>
+    <link href="/tutorial_markdown/css/nucleus.css?1699215039" rel="stylesheet">
+    <link href="/tutorial_markdown/css/auto-complete.css?1699215039" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/tutorial_markdown/css/auto-complete.css?1699215039" rel="stylesheet"></noscript>
+    <link href="/tutorial_markdown/css/perfect-scrollbar.min.css?1699215039" rel="stylesheet">
+    <link href="/tutorial_markdown/css/fonts.css?1699215039" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/tutorial_markdown/css/fonts.css?1699215039" rel="stylesheet"></noscript>
+    <link href="/tutorial_markdown/css/theme.css?1699215039" rel="stylesheet">
+    <link href="/tutorial_markdown/css/theme-auto.css?1699215039" rel="stylesheet" id="R-variant-style">
+    <link href="/tutorial_markdown/css/variant.css?1699215039" rel="stylesheet">
+    <link href="/tutorial_markdown/css/print.css?1699215039" rel="stylesheet" media="print">
+    <link href="/tutorial_markdown/css/ie.css?1699215039" rel="stylesheet">
+    <script src="/tutorial_markdown/js/url.js?1699215039"></script>
+    <script src="/tutorial_markdown/js/variant.js?1699215039"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_Reset_view = 'Reset view';
+      window.T_View_reset = 'View reset!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='tutorial_markdown/';
+      window.variants && variants.init( [ 'auto' ] );
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/tutorial_markdown/elementos_bloque/listas/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+              <button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)">
+                <i class="fa-fw fas fa-bars"></i>
+              </button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+              <button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)">
+                <i class="fa-fw fas fa-list-alt"></i>
+              </button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li><a href="#listas-ordenadas">Listas Ordenadas</a></li>
+    <li><a href="#listas-sin-orden">Listas sin Orden</a></li>
+    <li><a href="#listas-anidadas">Listas Anidadas</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/tutorial_markdown/index.html"><span itemprop="name">Home</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/tutorial_markdown/elementos_bloque/index.html"><span itemprop="name">2. Elementos de Bloque</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Listas</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+              <a class="topbar-control" href="/tutorial_markdown/elementos_bloque/citas/index.html" title="Citas (🡐)">
+                <i class="fa-fw fas fa-chevron-left"></i>
+              </a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+              <a class="topbar-control" href="/tutorial_markdown/elementos_bloque/codigos_bloque/index.html" title="Códigos de Bloque (🡒)">
+                <i class="fa-fw fas fa-chevron-right"></i>
+              </a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+              <button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More">
+                <i class="fa-fw fas fa-ellipsis-v"></i>
+              </button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="listas">Listas</h1>
+
+<p>Las listas son una característica en Markdown para organizar elementos de manera estructurada.</p>
+<h2 id="listas-ordenadas">Listas Ordenadas</h2>
+<p>Las listas ordenadas se crean utilizando números seguidos de un punto.</p>
+<p><em><strong>Ejemplo:</strong></em></p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Elemento 1
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">2.</span> Elemento 2
+</span></span><span style="display:flex;"><span>3. Elemento 3</span></span></code></pre></div><p><em>Se ve así:</em></p>
+<ol>
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+<li>Elemento 3</li>
+</ol>
+<h2 id="listas-sin-orden">Listas sin Orden</h2>
+<p>Las listas sin orden se crean utilizando un guion, un asterisco o un signo más.</p>
+<p><em><strong>Ejemplo:</strong></em></p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Elemento A
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Elemento B
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Elemento C
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> Otra forma de lista no ordenada
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> Y otro elemento
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> Y otro más
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>+ También es posible usar el signo más</span></span></code></pre></div><p><em>Se ve así:</em></p>
+<ul>
+<li>Elemento A</li>
+<li>Elemento B</li>
+<li>Elemento C</li>
+</ul>
+<ul>
+<li>Otra forma de lista no ordenada</li>
+<li>Y otro elemento</li>
+<li>Y otro más</li>
+</ul>
+<ul>
+<li>También es posible usar el signo más</li>
+</ul>
+<h2 id="listas-anidadas">Listas Anidadas</h2>
+<p>Markdown permite anidar listas dentro de otras listas:</p>
+<p><em><strong>Ejemplo:</strong></em></p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Elemento 1
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Subelemento 1
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Subelemento 2
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">2.</span> Elemento 2
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">*</span> Subelemento A
+</span></span><span style="display:flex;"><span>    * Subelemento B</span></span></code></pre></div><p><em>Se ve así:</em></p>
+<ol>
+<li>Elemento 1
+<ul>
+<li>Subelemento 1</li>
+<li>Subelemento 2</li>
+</ul>
+</li>
+<li>Elemento 2
+<ul>
+<li>Subelemento A</li>
+<li>Subelemento B</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p>Las listas en Markdown son versátiles y facilitan la organización de elementos de manera jerárquica.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <style>
+            #R-logo svg,
+            #R-logo svg * {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              fill: #282828 !important;
+              fill: var(--MENU-SECTIONS-BG-color) !important;
+              opacity: .945;
+            }
+            a#R-logo {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              font-family: 'Work Sans', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+              font-size: 1.875rem;
+              font-weight: 300;
+              margin-top: -.8125rem;
+              max-width: 60%;
+              text-transform: uppercase;
+              width: 14.125rem;
+              white-space: nowrap;
+            }
+            a#R-logo:hover {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+            }
+            #R-logo svg {
+              margin-bottom: -1.25rem;
+              margin-inline-start: -1.47rem;
+              margin-inline-end: .5rem;
+              width: 40.5%;
+            }
+            @media only all and (max-width: 59.999rem) {
+              a#R-logo {
+                font-size: 1.5625rem;
+                margin-top: -.1875rem;
+              }
+              #R-logo svg {
+                margin-bottom: -.75rem;
+                margin-inline-start: -1.47rem;
+                margin-inline-end: .5rem;
+              }
+            }
+            @media all and (-ms-high-contrast:none) {
+              /* IE11s understanding of positioning is weird at best */
+              a#R-logo {
+                margin-top: -3.625rem;
+              }
+              #R-logo svg {
+                margin-bottom: -3.875rem;
+                margin-left: -1.47rem;
+                margin-right: .5rem;
+              }
+            }
+            @media only all and (-ms-high-contrast:none) and (max-width: 59.999rem) {
+              #R-logo svg {
+                margin-left: -1.47rem;
+                margin-right: .5rem;
+              }
+            }
+          </style>
+          <a id="R-logo" style="margin-top: 12px;" href="/tutorial_markdown/index.html">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/208px-Markdown-mark.svg.png">
+          </a>
+        </div>
+        <div class="searchbox default-animation">
+          <i class="fas fa-search" title="Search (CTRL+ALT+f)"></i>
+          <label class="a11y-only" for="R-search-by">Search</label>
+          <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Buscar...">
+          <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/tutorial_markdown/js/auto-complete.js?1699215039" defer></script>
+        <script src="/tutorial_markdown/js/lunr/lunr.min.js?1699215039" defer></script>
+        <script src="/tutorial_markdown/js/lunr/lunr.stemmer.support.min.js?1699215039" defer></script>
+        <script src="/tutorial_markdown/js/lunr/lunr.multi.min.js?1699215039" defer></script>
+        <script src="/tutorial_markdown/js/lunr/lunr.en.min.js?1699215039" defer></script>
+        <script src="/tutorial_markdown/js/search.js?1699215039" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/tutorial_markdown/index.html"><i class="fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/tutorial_markdown/introduccion/index.html" class=""><a class="padding" href="/tutorial_markdown/introduccion/index.html">1. ¿Qué es Markdown?</a></li>
+          <li data-nav-id="/tutorial_markdown/elementos_bloque/index.html" class="parent "><a class="padding" href="/tutorial_markdown/elementos_bloque/index.html">2. Elementos de Bloque</a><ul id="R-subsections-04427af343109ef712c6c04f6f3171aa" class="morespace collapsible-menu">
+          <li data-nav-id="/tutorial_markdown/elementos_bloque/parrafos_saltos_linea/index.html" class=""><a class="padding" href="/tutorial_markdown/elementos_bloque/parrafos_saltos_linea/index.html">Párrafos y Saltos de Línea</a></li>
+          <li data-nav-id="/tutorial_markdown/elementos_bloque/encabezados/index.html" class=""><a class="padding" href="/tutorial_markdown/elementos_bloque/encabezados/index.html">Encabezados</a></li>
+          <li data-nav-id="/tutorial_markdown/elementos_bloque/citas/index.html" class=""><a class="padding" href="/tutorial_markdown/elementos_bloque/citas/index.html">Citas</a></li>
+          <li data-nav-id="/tutorial_markdown/elementos_bloque/listas/index.html" class="active"><a class="padding" href="/tutorial_markdown/elementos_bloque/listas/index.html">Listas</a></li>
+          <li data-nav-id="/tutorial_markdown/elementos_bloque/codigos_bloque/index.html" class=""><a class="padding" href="/tutorial_markdown/elementos_bloque/codigos_bloque/index.html">Códigos de Bloque</a></li>
+          <li data-nav-id="/tutorial_markdown/elementos_bloque/reglas_horizontales/index.html" class=""><a class="padding" href="/tutorial_markdown/elementos_bloque/reglas_horizontales/index.html">Reglas Horizontales</a></li></ul></li>
+          <li data-nav-id="/tutorial_markdown/elementos_linea/index.html" class=""><a class="padding" href="/tutorial_markdown/elementos_linea/index.html">3. Elementos de Línea</a><ul id="R-subsections-7e26936aea8db7efc9fcdca3e80080f3" class="morespace collapsible-menu">
+          <li data-nav-id="/tutorial_markdown/elementos_linea/enfasis/index.html" class=""><a class="padding" href="/tutorial_markdown/elementos_linea/enfasis/index.html">Énfasis</a></li>
+          <li data-nav-id="/tutorial_markdown/elementos_linea/links_enlaces/index.html" class=""><a class="padding" href="/tutorial_markdown/elementos_linea/links_enlaces/index.html">Enlaces</a></li>
+          <li data-nav-id="/tutorial_markdown/elementos_linea/codigo/index.html" class=""><a class="padding" href="/tutorial_markdown/elementos_linea/codigo/index.html">Código</a></li>
+          <li data-nav-id="/tutorial_markdown/elementos_linea/imagenes/index.html" class=""><a class="padding" href="/tutorial_markdown/elementos_linea/imagenes/index.html">Imágenes</a></li></ul></li>
+          </ul>
+        </div>
+        <div id="R-shortcuts">
+          <div class="nav-title padding">Más</div>
+          <ul class="space">
+            <li><a class="padding" href="https://gohugo.io/documentation/"><i class='fas fa-solid fa-book'></i> Documentación de Hugo</a></li>
+            <li><a class="padding" href="https://markdown.es/"><i class='fas fa-fw fa-bookmark'></i> Guía de Markdown</a></li>
+            <li><a class="padding" href="https://mcshelby.github.io/hugo-theme-relearn/"><i class='fab fa-brands fa-github-alt'></i> Página de GitHub</a></li>
+            <li><a class="padding" href="https://github.com/McShelby/hugo-theme-relearn"><i class='fab fa-fw fa-github'></i> Repositorio de GitHub</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-language fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = baseUri + this.value;">
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-paint-brush fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-auto" value="auto" selected>Auto</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fas fa-history fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Construido con <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> por <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/tutorial_markdown/js/clipboard.min.js?1699215039" defer></script>
+    <script src="/tutorial_markdown/js/perfect-scrollbar.min.js?1699215039" defer></script>
+    <script src="/tutorial_markdown/js/theme.js?1699215039" defer></script>
+  </body>
+</html>

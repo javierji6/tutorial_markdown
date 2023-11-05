@@ -1,0 +1,4 @@
+baseURL = '/tutorial_markdown/'
+languageCode = 'es-es'
+title = 'Tutorial de Markdown'
+theme =['relearn']

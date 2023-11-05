@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2. Elementos de Bloque on Tutorial de Markdown</title>
+    <link>/tutorial_markdown/elementos_bloque/index.html</link>
+    <description>Recent content in 2. Elementos de Bloque on Tutorial de Markdown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <atom:link href="/tutorial_markdown/elementos_bloque/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Párrafos y Saltos de Línea</title>
+      <link>/tutorial_markdown/elementos_bloque/parrafos_saltos_linea/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_bloque/parrafos_saltos_linea/index.html</guid>
+      <description>En Markdown, puedes formatear el texto de manera rápida y legible.
+Párrafos Los párrafos en Markdown se separan por líneas en blanco.
+Este es un párrafo. Este es otro párrafo.Saltos de Línea Para realizar un salto de línea sin crear un nuevo párrafo, puedes usar dos espacios al final de una línea.
+Esta es la primera línea. Y esta es la segunda línea, pero está en el mismo párrafo.</description>
+    </item>
+    <item>
+      <title>Encabezados</title>
+      <link>/tutorial_markdown/elementos_bloque/encabezados/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_bloque/encabezados/index.html</guid>
+      <description>Los encabezados son una parte fundamental para organizar y jerarquizar el contenido en Markdown. Utilizan el símbolo # seguido por el texto del encabezado.
+# Encabezado de Nivel 1Encabezado de Nivel 2 Los encabezados de nivel 2 se crean utilizando dos símbolos ##.
+## Encabezado de Nivel 2Encabezado de Nivel 3 Se continúa la jerarquía con tres símbolos ### para los encabezados de nivel 3.
+## Encabezado de Nivel 3Encabezado de Nivel 4 Los encabezados de nivel 4 se crean con cuatro símbolos ####.</description>
+    </item>
+    <item>
+      <title>Citas</title>
+      <link>/tutorial_markdown/elementos_bloque/citas/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_bloque/citas/index.html</guid>
+      <description>Las citas son una forma de resaltar texto para indicar que proviene de otra fuente o para enfatizar una determinada información. En Markdown, puedes usar el símbolo de mayor que (&amp;gt;) para crear citas.
+Citas simples Una cita simple se crea utilizando un símbolo de &amp;gt; al comienzo de la línea:
+Ejemplo:
+&amp;gt; Esto es una cita simple.Se ve así:
+Esto es una cita simple.
+Citas anidadas También puedes anidar citas para resaltar estructuras más complejas.</description>
+    </item>
+    <item>
+      <title>Listas</title>
+      <link>/tutorial_markdown/elementos_bloque/listas/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_bloque/listas/index.html</guid>
+      <description>Las listas son una característica en Markdown para organizar elementos de manera estructurada.
+Listas Ordenadas Las listas ordenadas se crean utilizando números seguidos de un punto.
+Ejemplo:
+1. Elemento 1 2. Elemento 2 3. Elemento 3Se ve así:
+Elemento 1 Elemento 2 Elemento 3 Listas sin Orden Las listas sin orden se crean utilizando un guion, un asterisco o un signo más.
+Ejemplo:
+- Elemento A - Elemento B - Elemento C * Otra forma de lista no ordenada * Y otro elemento * Y otro más + También es posible usar el signo másSe ve así:</description>
+    </item>
+    <item>
+      <title>Códigos de Bloque</title>
+      <link>/tutorial_markdown/elementos_bloque/codigos_bloque/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_bloque/codigos_bloque/index.html</guid>
+      <description>Los bloques de código son una parte de Markdown, ya que permiten mostrar código.
+Bloques de Código en línea Los bloques de código en línea se crean al rodear el texto con backticks ``.
+Ejemplo:
+`console.log(&amp;#39;Hola Mundo!&amp;#39;);`Se ve así: console.log(&#39;Hola Mundo!&#39;);
+Bloques de Código Los bloques de código con varias líneas se crean al rodear el código con tres backticks ``` al inicio y al final del bloque, también se puede especificar el lenguaje seguido del los tres backticks iniciales.</description>
+    </item>
+    <item>
+      <title>Reglas Horizontales</title>
+      <link>/tutorial_markdown/elementos_bloque/reglas_horizontales/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tutorial_markdown/elementos_bloque/reglas_horizontales/index.html</guid>
+      <description>Las reglas horizontales son líneas utilizadas para separar y estructurar visualmente secciones en un documento. En Markdown, se emplean para crear divisiones claras y mejorar la legibilidad.
+Las reglas horizontales se crean mediante el uso de tres o más de los siguientes caracteres en una línea propia:
+Tres o más guiones (---) Tres o más asteriscos (***) Tres o más guiones bajos (___) Ejemplo:
+--- Una línea de guiones produce una regla horizontal.</description>
+    </item>
+  </channel>
+</rss>
